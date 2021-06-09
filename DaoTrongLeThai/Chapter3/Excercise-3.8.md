@@ -1,3 +1,4 @@
+``` Java
 public class Excercise38
 {
     public static <T extends Comparable<? super T>> T min (List<? extends T> list {
@@ -23,3 +24,4 @@ public class Excercise38
        return result;
     }
 }
+```
