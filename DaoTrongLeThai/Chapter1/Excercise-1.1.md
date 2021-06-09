@@ -1,6 +1,4 @@
-### What are some factors that would help a development organization 
-### move from Beizer’s testing level 2 (testing is to 
-### show errors) to testing level 4 (a mental discipline that increases quality)?
+ **What are some factors that would help a development organization move from Beizer’s testing level 2 (testing is to show errors) to testing level 4 (a mental discipline that increases quality)?**
 
 1. Plan the testing and QA processes
 2. Employ test-oriented software development management
