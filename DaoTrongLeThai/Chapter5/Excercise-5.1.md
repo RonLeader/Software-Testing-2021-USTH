@@ -8,4 +8,4 @@ T2.
 
 (c) If P contains a fault, and T2 reveals the fault, T1 does not necessarily also reveal the
 fault. Explain.
-- No. This is the hard question. Testers often think that test sets for strong criteria are a minimum of nearly as good at finding faults as test sets for weaker criteria. But subsumption is about criteria, not about test sets. Particularly, there's no requirement that test set T2 be a subset of test set T1. So, it could happen that T2 contains that one test that reveals the fault, and T1 doesn't.18
+- No. This is the hard question. Testers often think that test sets for strong criteria are a minimum of nearly as good at finding faults as test sets for weaker criteria. But subsumption is about criteria, not about test sets. Particularly, there's no requirement that test set T2 be a subset of test set T1. So, it could happen that T2 contains that one test that reveals the fault, and T1 doesn't.
