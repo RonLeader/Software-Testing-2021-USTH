@@ -33,3 +33,49 @@ class Vector_demo
 } 
 ```
 
+b, Lack of verification statements like checking "vector a" or "vector b" is empty or not.
+
+c,
+Test case 1
+```
+Vector<String> a = new Vector<>();
+Vector<String> b = new Vector<>();
+```
+Test case 2
+```
+Vector<String> a = new Vector<>();
+a.add("vb")
+Vector<String> b = new Vector<>();
+```
+Test case 3
+```
+Vector<String> a = new Vector<>();
+Vector<String> b = new Vector<>();
+c.add("vb")
+
+d,
+```
+public static Vector union(Vector a, Vector b, boolean inv = False)
+{
+  if (a.isEmpty() && b.isEmpty()) return Null;
+  else
+  {
+    if (inv)
+    {
+      Vector<String> c = new Vector<>();
+      c.addAll(b);
+      c.addAll(a);
+      return c;
+    }
+    else
+    {
+      Vector<String> c = new Vector<>();
+      v3.addAll(a);
+      v3.addAll(b);
+      return c;
+    }
+  }
+}
+```
+
+
