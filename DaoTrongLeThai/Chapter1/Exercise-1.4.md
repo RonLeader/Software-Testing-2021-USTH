@@ -71,8 +71,8 @@ public static Vector union(Vector a, Vector b, boolean inv = False)
     else
     {
       Vector<String> c = new Vector<>();
-      v3.addAll(a);
-      v3.addAll(b);
+      c.addAll(a);
+      c.addAll(b);
       return c;
     }
   }
