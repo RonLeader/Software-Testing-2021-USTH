@@ -17,7 +17,7 @@
 
 a,
 
-![image]https://github.com/RonLeader/formdangnhap/blob/master/Exercise-7.4.3.jpg)
+![image](https://github.com/RonLeader/formdangnhap/blob/master/Exercise-7.4.3.jpg)
 
 b,
 ```
