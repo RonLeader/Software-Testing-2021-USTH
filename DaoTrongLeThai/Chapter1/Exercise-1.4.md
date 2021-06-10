@@ -36,6 +36,7 @@ class Vector_demo
 b, Lack of verification statements like checking "vector a" or "vector b" is empty or not.
 
 c,
+
 Test case 1
 ```
 Vector<String> a = new Vector<>();
