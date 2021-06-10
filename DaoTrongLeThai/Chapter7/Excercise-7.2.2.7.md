@@ -4,7 +4,7 @@
 **• N0 = {1}** <br>
 **• Nf = {3}** <br>
 **• E = {(1; 2); (1; 3); (2; 1); (2; 3); (3; 1)}** <br>
-Also consider the following (candidate) paths:**<br>
+**Also consider the following (candidate) paths:**<br>
 **• p1 = [1; 2; 3; 1]** <br>
 **• p2 = [1; 3; 1; 2; 3]** <br>
 **• p3 = [1; 2; 3; 1; 2; 1; 3]** <br>
