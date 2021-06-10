@@ -1,11 +1,5 @@
 **Replace each occurrence of a set with a list in the JUnit theory removeThenAddDoesNotChangeSet. Is the resulting theory valid or invalid? How many of the tests that pass the precondition also pass the postcondition? Explain**
 
-
-The resulting theory is invalid because order matters in lists. When we remove then add an element back, its position in the list could have been changed and thus, the list is different.
-
-The the three test cases, just one can pass the test.
-
-Conclusion: The JUnit theory fails.
 ```Java
 import org.junit.*;
 import org.junit.runner.RunWith;
@@ -45,3 +39,10 @@ public class ListTheoryTest
       assertTrue (list.equals (copy));      // Assert
     }
 }
+```
+
+The resulting theory is invalid because order matters in lists. When we remove then add an element back, its position in the list could have been changed and thus, the list is different.
+
+The the three test cases, just one can pass the test.
+
+Conclusion: The JUnit theory fails.
