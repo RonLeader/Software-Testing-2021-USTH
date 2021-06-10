@@ -38,24 +38,24 @@ b, Lack of verification statements like checking "vector a" or "vector b" is emp
 c,
 
 Test case 1
-```
+```Java
 Vector<String> a = new Vector<>();
 Vector<String> b = new Vector<>();
 ```
 Test case 2
-```
+```Java
 Vector<String> a = new Vector<>();
 a.add("vb")
 Vector<String> b = new Vector<>();
 ```
 Test case 3
-```
+```Java
 Vector<String> a = new Vector<>();
 Vector<String> b = new Vector<>();
 c.add("vb")
 ```
 d,
-```
+```Java
 public static Vector union(Vector a, Vector b, boolean inv = False)
 {
   if (a.isEmpty() && b.isEmpty()) return Null;
