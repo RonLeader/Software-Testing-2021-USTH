@@ -9,7 +9,7 @@ Also consider the following (candidate) paths:**<br>
 **• p2 = [1; 3; 1; 2; 3]** <br>
 **• p3 = [1; 2; 3; 1; 2; 1; 3]** <br>
 **• p4 = [2; 3; 1; 3]** <br>
-**• p5 = [1; 2; 3; 2; 3] ** <br>
+**• p5 = [1; 2; 3; 2; 3]** <br>
 
 **(a) Which of the listed paths are test paths? For any path that is not a test path, explain
 why not.** <br>
